@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mr. Hamid Tech</title>
+    <script>
+        function showalert() {
+            alert("This is a warning");
+        }
+        
+        function showconfirmation() {
+            var res=confirm("This is a Confirmation");
+            if(res==true)alert("I am Ethical Hacker");
+            else alert("I am not Ethical Hacker");
+        }
+        function showpromet() {
+            var res=prompt("Enter Your Userame")
+            if(res=="Hamid")
+            {
+                var r=prompt("Enter Your Password")
+                if(r=="1234")
+                {
+                    alert("Successfully Entered");
+                }
+                else{
+                    alert("Wrong Password");
+                }
+            }
+            else{
+                alert("Wrong Username");
+            }
+
+        }
+        var a=1;
+        while(a<1)
+        {
+            document.write("<h1>"+a+"Hamid</h1><br>");
+            a++;
+        }
+
+        try {
+            salert("bhrfsjif");
+        } catch (error) {
+            document.write(error);
+        }
+    </script>
+</head>
+    <body onresize="showalert()" onscroll="showalert()">
+    <h1 id="ourh1">Mr. Hamid Tech</h1>
+       
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+    
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+    
+    <br>
+    <br>
+    <br>
+    <button onclick="showalert()">Alert</button>
+    <button onclick="showconfirmation()">Confirmation</button>
+    <br>
+    <br>
+    <br>
+    <button onclick="showpromet()">Click On Me</button>
+    <br>
+    <br>
+    <br>
+    <button ondblclick="showalert()">Double Click</button>
+    <br>
+    <button onmouseenter="showalert()">Hover</button>
+    <br>
+    <button onmouseleave="showalert()">Mouse Out</button>
+    <br>
+    <button oncontextmenu="showalert()">Right Click</button>
+
+    <!-- <p> Mr Hamid Tech is an upcoming technical brand </p>
+    
+</body>
+</html>
